@@ -1,0 +1,23 @@
+/* A4 portrait page size with 20 mm margins */
+@page {
+  size: A4 portrait;
+  margin: 20mm;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Preserve colors in print */
+* {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+/* Utility for print-specific spacing */
+@media print {
+  .print\:mb-4 {
+    margin-bottom: 1rem;
+  }
+}
