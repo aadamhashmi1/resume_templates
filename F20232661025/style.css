@@ -5,15 +5,15 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0); /* soft gradient */
+  font-family: 'Lato', sans-serif;
+
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Subtle diagonal stripes overlay */
 body::before {
   content: "";
   position: fixed;
@@ -31,14 +31,12 @@ body::before {
   z-index: -1;
 }
 
-/* Resume container styling */
 .resume-container {
   background: white;
   border-radius: 0.5rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
 
-/* Print overrides */
 @media print {
   body {
     background: white !important;
