@@ -1,3 +1,5 @@
+/* style.css */
+
 /* A4 portrait page size with 20 mm margins */
 @page {
   size: A4 portrait;
@@ -9,7 +11,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* Preserve colors in print */
+/* Preserve background and text colors in print */
 * {
   -webkit-print-color-adjust: exact;
   color-adjust: exact;

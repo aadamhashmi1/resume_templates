@@ -13,15 +13,77 @@
     rel="stylesheet"
   />
 
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="font-sans bg-white text-gray-900">
+
   <div class="max-w-3xl mx-auto p-6 print:p-4">
-    <!-- Header, main sections will go here -->
+    <!-- Header -->
+    <header class="text-center mb-6 print:mb-4">
+      <h1 class="text-4xl font-bold">Your Name</h1>
+      <p class="text-lg text-gray-700 mt-2">
+        Passionate web developer with experience in frontend technologies, UI/UX design, and responsive layouts.
+      </p>
+      <div class="flex flex-wrap justify-center space-x-6 mt-4 text-sm text-gray-600">
+        <div><strong>Email:</strong> you@example.com</div>
+        <div><strong>Phone:</strong> +92-300-1234567</div>
+        <div><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Experience -->
+      <section class="mb-6 print:mb-4">
+        <h2 class="text-2xl font-semibold border-b-2 pb-1">Experience</h2>
+        <div class="mt-4 space-y-4 text-sm">
+          <div>
+            <h3 class="font-semibold">Frontend Developer – XYZ Corp</h3>
+            <span class="text-gray-600">Jan 2023 – Present</span>
+            <ul class="list-disc list-inside mt-2">
+              <li>Developed responsive web interfaces using Tailwind CSS.</li>
+              <li>Collaborated with backend team to integrate REST APIs.</li>
+              <li>Improved page load speed by 30% through optimization.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="mb-6 print:mb-4">
+        <h2 class="text-2xl font-semibold border-b-2 pb-1">Education</h2>
+        <div class="mt-4 text-sm">
+          <h3 class="font-semibold">BS in Computer Science</h3>
+          <span class="text-gray-600">University of Lahore, 2021 – 2025</span>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="mb-6 print:mb-4">
+        <h2 class="text-2xl font-semibold border-b-2 pb-1">Skills</h2>
+        <ul class="grid grid-cols-2 gap-x-4 mt-4 text-sm">
+          <li>HTML5 &amp; CSS3</li>
+          <li>JavaScript &amp; ES6+</li>
+          <li>Tailwind CSS</li>
+          <li>Python &amp; Flask</li>
+          <li>WeasyPrint PDF Rendering</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </section>
+
+      <!-- Certifications -->
+      <section class="mb-6 print:mb-4">
+        <h2 class="text-2xl font-semibold border-b-2 pb-1">Certifications</h2>
+        <ul class="mt-4 text-sm list-disc list-inside">
+          <li>Responsive Web Design – freeCodeCamp</li>
+          <li>Deep Learning Specialization – Coursera</li>
+        </ul>
+      </section>
+    </main>
   </div>
+
 </body>
 </html>
